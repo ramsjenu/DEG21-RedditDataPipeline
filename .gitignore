@@ -52,7 +52,10 @@ coverage.xml
 cover/
 
 # config files
-/dags/config/*
+/dags/config/config.conf
+/dags/config/hive-config.env
+/dags/config/minio_config.env
+/dags/config/nifi-credentials.properties
 
 # Translations
 *.mo
